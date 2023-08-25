@@ -73,7 +73,6 @@ h1 {
 
 .display-title {
   font-family:'Inter', sans-serif;
-  
   color:#5A537B;
   
 }
@@ -92,4 +91,7 @@ h1 {
   justify-items:center;
 }
 
-
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance:none;
+}
